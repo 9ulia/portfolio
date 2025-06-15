@@ -298,5 +298,18 @@ closePortraitStudy.addEventListener("click", () => {
   portraitStudyModal.close();
 });
 
+const cloudBunnyModal = document.querySelector("#cloudBunnyModal");
+const openCloudBunny = document.querySelector(".cloud-bunny-piece-container");
+const closeCloudBunny = document.querySelector(".cloud-bunny-close-button");
+
+openCloudBunny.addEventListener("click", () => {
+  cloudBunnyModal.showModal();
+});
+
+closeCloudBunny.addEventListener("click", () => {
+  cloudBunnyModal.close();
+});
+
+
 
 
