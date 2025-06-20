@@ -1,3 +1,15 @@
+const forridgeModal = document.querySelector("#forridgeModal");
+const openForridge = document.querySelector(".forridge-project");
+const closeForridge = document.querySelector(".forridge-close-button");
+
+openForridge.addEventListener("click", () => {
+  forridgeModal.showModal();
+});
+
+closeForridge.addEventListener("click", () => {
+  forridgeModal.close();
+});
+
 const hotPressModal = document.querySelector("#hotPressModal");
 const openHotPress = document.querySelector(".hot-press-project");
 const closeHotPress = document.querySelector(".hot-press-close-button");

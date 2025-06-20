@@ -201,11 +201,11 @@ video {
   margin-top: 0.5%;
   border-style: black;
   border-width: 3px;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 @media only screen and (min-width: 700px) {
   .about-text {
-    font-size: 1.3em;
+    font-size: 1.0em;
   }
 }
 
@@ -347,10 +347,10 @@ video {
 }
 
 .modal {
-  max-width: 700px;
+  max-width: 900px;
   border: none;
   z-index: 200;
-  background: rgba(80, 80, 80, .7);
+  background: rgba(50, 50, 50, 0.8);
   margin: auto;
   text-align: center;
 }
@@ -489,9 +489,13 @@ video {
 }
 
 .harvest-game{
-  float: right;
+  float: center;
   position: relative;
-  left: 2.5%;
+}
+
+.forridge-game{
+  float: center;
+  position: relative;
 }
 
 .favContainer{

@@ -70,7 +70,7 @@ closePortraits.addEventListener("click", () => {
   portraitsModal.close();
 });
 
-const soleneModal = document.querySelector("#soleneModal");
+/* const soleneModal = document.querySelector("#soleneModal");
 const openSolene = document.querySelector(".solene-piece-container");
 const closeSolene = document.querySelector(".solene-close-button");
 
@@ -80,7 +80,7 @@ openSolene.addEventListener("click", () => {
 
 closeSolene.addEventListener("click", () => {
   soleneModal.close();
-});
+}); */
 
 const soleneCharSheetModal = document.querySelector("#soleneCharSheetModal");
 const openSoleneCharSheet = document.querySelector(".solene-char-sheet-piece-container");
@@ -94,7 +94,7 @@ closeSoleneCharSheet.addEventListener("click", () => {
   soleneCharSheetModal.close();
 });
 
-const catsTailModal = document.querySelector("#catsTailModal");
+/* const catsTailModal = document.querySelector("#catsTailModal");
 const openCatsTail = document.querySelector(".cats-tail-piece-container");
 const closeCatsTail = document.querySelector(".cats-tail-close-button");
 
@@ -104,7 +104,7 @@ openCatsTail.addEventListener("click", () => {
 
 closeCatsTail.addEventListener("click", () => {
   catsTailModal.close();
-});
+}); */
 
 const friedRiceModal = document.querySelector("#friedRiceModal");
 const openFriedRice = document.querySelector(".fried-rice-piece-container");
