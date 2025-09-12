@@ -34,7 +34,7 @@ closeSugarSprint.addEventListener("click", () => {
   sugarSprintModal.close();
 });
 
-const harvestModal = document.querySelector("#harvestModal");
+/* const harvestModal = document.querySelector("#harvestModal");
 const openHarvest = document.querySelector(".harvest-project");
 const closeHarvest = document.querySelector(".harvest-close-button");
 
@@ -44,7 +44,7 @@ openHarvest.addEventListener("click", () => {
 
 closeHarvest.addEventListener("click", () => {
   harvestModal.close();
-});
+}); */
 
 const cheesyRoadModal = document.querySelector("#cheesyRoadModal");
 const openCheesyRoad = document.querySelector(".cheesy-road-project");

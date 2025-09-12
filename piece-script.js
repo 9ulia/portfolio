@@ -82,7 +82,7 @@ closeSolene.addEventListener("click", () => {
   soleneModal.close();
 }); */
 
-const soleneCharSheetModal = document.querySelector("#soleneCharSheetModal");
+/* const soleneCharSheetModal = document.querySelector("#soleneCharSheetModal");
 const openSoleneCharSheet = document.querySelector(".solene-char-sheet-piece-container");
 const closeSoleneCharSheet = document.querySelector(".solene-char-sheet-close-button");
 
@@ -92,7 +92,7 @@ openSoleneCharSheet.addEventListener("click", () => {
 
 closeSoleneCharSheet.addEventListener("click", () => {
   soleneCharSheetModal.close();
-});
+}); */
 
 /* const catsTailModal = document.querySelector("#catsTailModal");
 const openCatsTail = document.querySelector(".cats-tail-piece-container");
