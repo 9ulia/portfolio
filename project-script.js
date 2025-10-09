@@ -1,3 +1,15 @@
+const hotPressModal = document.querySelector("#hotPressModal");
+const openHotPress = document.querySelector(".hot-press-project");
+const closeHotPress = document.querySelector(".hot-press-close-button");
+
+openHotPress.addEventListener("click", () => {
+  hotPressModal.showModal();
+});
+
+closeHotPress.addEventListener("click", () => {
+  hotPressModal.close();
+});
+
 const forridgeModal = document.querySelector("#forridgeModal");
 const openForridge = document.querySelector(".forridge-project");
 const closeForridge = document.querySelector(".forridge-close-button");
@@ -10,16 +22,16 @@ closeForridge.addEventListener("click", () => {
   forridgeModal.close();
 });
 
-const hotPressModal = document.querySelector("#hotPressModal");
-const openHotPress = document.querySelector(".hot-press-project");
-const closeHotPress = document.querySelector(".hot-press-close-button");
+const dolphinCoveModal = document.querySelector("#dolphinCoveModal");
+const openDolphinCove = document.querySelector(".dolphin-cove-project");
+const closeDolphinCove = document.querySelector(".dolphin-cove-close-button");
 
-openHotPress.addEventListener("click", () => {
-  hotPressModal.showModal();
+openDolphinCove.addEventListener("click", () => {
+  dolphinCoveModal.showModal();
 });
 
-closeHotPress.addEventListener("click", () => {
-  hotPressModal.close();
+closeDolphinCove.addEventListener("click", () => {
+  dolphinCoveModal.close();
 });
 
 const sugarSprintModal = document.querySelector("#sugarSprintModal");
