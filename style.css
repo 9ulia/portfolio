@@ -15,7 +15,7 @@ html {
 /* adjust typography defaults */
 body {
   margin: 1rem;
-  font-family: "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.3;
 }
 
@@ -429,7 +429,7 @@ video {
   top: 21%;
   position: absolute;
   z-index: 300;
-  opacity: 40%;
+  opacity: 60%;
 }
 
 .projects-section-label{
@@ -446,7 +446,7 @@ video {
   top: 2.5%;
   position: absolute;
   z-index: 300;
-  opacity: 40%;
+  opacity: 60%;
 }
 
 .contact-me-section-label{
@@ -463,7 +463,7 @@ video {
   top: 70%;
   position: absolute;
   z-index: 300;
-  opacity: 40%;
+  opacity: 60%;
 }
 
 .about-me-section-label{
@@ -480,7 +480,7 @@ video {
   top: 25%;
   position: absolute;
   z-index: 300;
-  opacity: 40%;
+  opacity: 60%;
 }
 
 .section-label{
