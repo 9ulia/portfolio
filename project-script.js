@@ -1,3 +1,15 @@
+const novarusTechModal = document.querySelector("#novarusTechModal");
+const openNovarusTech = document.querySelector(".novarus-tech-project");
+const closeNovarusTech = document.querySelector(".novarus-tech-close-button");
+
+openNovarusTech.addEventListener("click", () => {
+  novarusTechModal.showModal();
+});
+
+closeNovarusTech.addEventListener("click", () => {
+  novarusTechModal.close();
+});
+
 const hotPressModal = document.querySelector("#hotPressModal");
 const openHotPress = document.querySelector(".hot-press-project");
 const closeHotPress = document.querySelector(".hot-press-close-button");
