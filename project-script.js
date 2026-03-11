@@ -1,3 +1,15 @@
+const bmgModal = document.querySelector("#bmgModal");
+const openBMG = document.querySelector(".bmg-project");
+const closeBMG = document.querySelector(".bmg-close-button");
+
+openBMG.addEventListener("click", () => {
+  bmgModal.showModal();
+});
+
+closeBMG.addEventListener("click", () => {
+  bmgModal.close();
+});
+
 const novarusTechModal = document.querySelector("#novarusTechModal");
 const openNovarusTech = document.querySelector(".novarus-tech-project");
 const closeNovarusTech = document.querySelector(".novarus-tech-close-button");
@@ -46,6 +58,7 @@ closeDolphinCove.addEventListener("click", () => {
   dolphinCoveModal.close();
 });
 
+/*
 const sugarSprintModal = document.querySelector("#sugarSprintModal");
 const openSugarSprint = document.querySelector(".sugar-sprint-project");
 const closeSugarSprint = document.querySelector(".sugar-sprint-close-button");
@@ -56,9 +69,10 @@ openSugarSprint.addEventListener("click", () => {
 
 closeSugarSprint.addEventListener("click", () => {
   sugarSprintModal.close();
-});
+}); */
 
-/* const harvestModal = document.querySelector("#harvestModal");
+/*
+const harvestModal = document.querySelector("#harvestModal");
 const openHarvest = document.querySelector(".harvest-project");
 const closeHarvest = document.querySelector(".harvest-close-button");
 
@@ -70,6 +84,7 @@ closeHarvest.addEventListener("click", () => {
   harvestModal.close();
 }); */
 
+/*
 const cheesyRoadModal = document.querySelector("#cheesyRoadModal");
 const openCheesyRoad = document.querySelector(".cheesy-road-project");
 const closeCheesyRoad = document.querySelector(".cheesy-road-close-button");
@@ -80,7 +95,7 @@ openCheesyRoad.addEventListener("click", () => {
 
 closeCheesyRoad.addEventListener("click", () => {
   cheesyRoadModal.close();
-});
+}); */
 
 const freshFarmModal = document.querySelector("#freshFarmModal");
 const openFreshFarm = document.querySelector(".fresh-farm-project");

@@ -30,8 +30,8 @@ video {
 .largeSection {
   margin: auto;
   text-align: center;
-  max-width: 700px;
-  max-height: 700px;
+  width: clamp(700px, 50vw, 1000px); /* minimum 700px, scales with viewport, max 1000px */
+  height: auto;                       /* adjusts height automatically based on content */
   float: none;
   position: relative;
   overflow: hidden;
@@ -191,22 +191,22 @@ video {
   border-style: black;
   border-width: 3px;
   position: absolute;
-  margin-top: 20px;
-  left: 6%;
-  right: 6%;
-  bottom: 12%;
+  left: 50%;                           /* center horizontally */
+  transform: translateX(-50%);         /* ensures equal left/right margins */
+  bottom: 6%;                          /* a little lower on the screen */
+  width: clamp(480px, 45vw, 880px);    /* scales horizontally */
+  max-height: 45vh;                     /* fits within lower half of screen */
+  overflow-y: auto;                     /* scroll if content exceeds box */
   z-index: 1;
+  padding: 1rem;
 }
+
 .about-text {
-  margin-top: 0.5%;
+  margin-top: 5%;
   border-style: black;
   border-width: 3px;
-  font-size: 2vw;
-}
-@media only screen and (min-width: 700px) {
-  .about-text {
-    font-size: 1.0em;
-  }
+  font-size: clamp(0.6rem, 1.3vw, 1.3rem);  /* slightly smaller text */
+  line-height: 1.3;
 }
 
 .black-square {
@@ -218,12 +218,11 @@ video {
   top: 20%;
 }
 
-.personal-box {
-  max-width: 700px;
-  aspect-ratio: 1/1;
-  width: 100%;
-  background: black;
-  position: relative;
+.personal-box.largeSection .file-background {
+  width: 100%;      /* fills container width */
+  height: auto;     /* keeps aspect ratio */
+  display: block;   /* removes inline spacing issues */
+  margin: auto;     /* centers image */
 }
 
 .scroll-box {
@@ -268,7 +267,7 @@ video {
 
 .title {
   width: 100%;
-  font-size: 1vw;
+  font-size: clamp(0.6rem, 1vw, 1rem);  /* scales with viewport, max smaller */
   position: absolute;
   bottom: 0%;
   margin-left: auto;
@@ -310,8 +309,10 @@ video {
 }
 
 .project-title {
+  position: absolute;
   bottom: 0%;
   left: 1%;
+  font-size: clamp(0.6rem, 1vw, 1rem);  /* scales like .title, max smaller */
   margin-left: auto;
   margin-right: auto;
 }
@@ -491,7 +492,8 @@ video {
 
 .section-label{
   pointer-events: none;
-  max-width: 25%;
+  width: clamp(120px, 10vw, 200px);  /* grows with screen width, slightly larger than before */
+  height: auto;
 }
 
 .harvest-game{
